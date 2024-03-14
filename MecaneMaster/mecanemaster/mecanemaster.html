@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mecanimaster - Manutenção Preventiva</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000; /* Alterando para fundo preto */
+            color: #fff;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.8); /* Adicionando uma cor de fundo com opacidade */
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+            overflow: hidden; /* Adicionando para limpar o float */
+        }
+
+        h1, h2 {
+            color: #fff;
+        }
+
+        p {
+            line-height: 1.6;
+            color: #ccc;
+            text-align: justify; /* Centralizando o texto */
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            color: #ccc;
+        }
+
+        li::before {
+            content: '\2022'; /* Adiciona um ponto de bullet */
+            color: #ccc;
+            display: inline-block;
+            width: 1em;
+            margin-left: -1em;
+        }
+
+        .image {
+            float: left; /* Alinhando a imagem à esquerda */
+            margin-right: -100px; /* Adicione margem para separar a imagem do texto */
+            max-width: 120%; /* Defina a largura máxima da imagem */
+            height: auto; /* Mantenha a proporção da altura */
+        }
+
+        form {
+            margin-top: 20px;
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+        }
+
+        input[type="text"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            box-sizing: border-box;
+        }
+
+        input[type="submit"] {
+            background-color: #333;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Mecanimaster - Manutenção Preventiva</h1>
+    </header>
+
+    <section>
+        <div class="image">
+            <img src="8b493e5e-12e0-4886-819d-224596183f73.jpg" alt="Mecanimaster">
+        </div>
+
+        <h2>Bem-vindo à Mecanimaster</h2>
+        <p>Na Mecanimaster, somos apaixonados por ajudar empresas de panificação a alcançar o máximo desempenho e eficiência em suas operações. Especializados em consultoria de manutenção preventiva e preditiva, dedicamos nossos esforços a garantir que as máquinas de panificação operem de forma otimizada, minimizando tempo de inatividade e maximizando a produtividade.
+
+            Nossa equipe é composta por especialistas experientes em engenharia mecânica , com um profundo conhecimento das complexidades das máquinas de panificação. Combinando nossa experiência técnica com uma abordagem proativa, oferecemos soluções personalizadas de manutenção que atendem às necessidades específicas de cada cliente.</p>
+
+        <h2>Nossos Serviços</h2>
+        <ul>
+            <li>Inspeção e diagnóstico</li>
+            <li>Troca de peças desgastadas</li>
+            <li>Programas personalizados de manutenção</li>
+        </ul>
+
+        <h2>Eqipe</h2>
+        <ul>
+            <li>Laura Machado - Presidente</li>
+            <li>Celiane Esteves - Vice Presidente</li>
+            <li>Kennedy Dias - Diretor Operacional</li>
+            <li>Vinicius Mota - Diretor Executivo</li>
+        </ul>
+
+
+        <h2>Entre em Contato</h2>
+        <p>Estamos prontos para atendê-lo. Entre em contato conosco para agendar uma avaliação ou tirar suas dúvidas.</p>
+        <p>Email: contato@mecanimaster.com.br<br>
+            Telefone: (24) 99873-0060</p>
+        
+        <h2>Preencha a Ficha Online</h2>
+        <form action="#" method="post">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="numero">Numero:</label>
+            <input type="text" id="numero" name="numero" required>
+
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" required>
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+
+</body>
+
+</html>
